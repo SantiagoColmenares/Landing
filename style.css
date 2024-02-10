@@ -20,6 +20,10 @@ font-family: 'Ubuntu', sans-serif;
 header{
   background-color: var(--color-1);
 }
+header img{
+max-width: 95px;
+border-radius: 35px;
+}
 header nav{
   display: flex;
   justify-content: space-between;
