@@ -124,5 +124,38 @@ text-decoration: underline;
 }
 
 
+/* Estilos seccion servicios */
+.sec-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.sub-1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sec-3 .sub-1 img{
+  width: 486px;
+  height: 396px;
+}
+
+.sub-2{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.sub-3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
 
 
