@@ -6,6 +6,7 @@
   --color-3:#FCF4D9;
   --text-color-1:#121010;
   --text-color-2:#000000;
+  --text-color-3:#F2F0F0;
 }
 
 *{
@@ -60,19 +61,68 @@ font-size:18px;
 
 
 /* Incio estilos contenedor main */
-/* main{
-  background-color: var(--color-2);
-} */
 
 h1{
   text-align: center;
   margin: 44px 0px 107px 0px;
 }
 
-.sec-1{
+.sec-1 .container-img{
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
 }
+
+.container-img .img-1{
+  width: 358px;
+  height: 396px;
+}
+
+.container-img .img-2{
+  width: 700px;
+  height: 551px;
+  margin: 24px;
+}
+
+.container-img .img-3{
+  width: 358px;
+  height: 396px;
+}
+
+.sec-1 p{
+  text-align: center;
+  color: var(--text-color-3);
+  font-size: 32px;
+  margin: 0 300px 0 300px;
+}
+
+
+/* Estilos secc PP */
+
+.sec-2{
+  /* text-align: center; */
+  height: 406px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-3);
+}
+
+.sec-2 h2{
+font-size: 32px;
+text-decoration: underline;
+}
+
+.sec-2 p{
+  font-size: 16px;
+  color: var(--text-color-1);
+  margin-top: 81px;
+  height: 74px;
+  text-align: center;
+  width: 588px;
+}
+
 
 
 
