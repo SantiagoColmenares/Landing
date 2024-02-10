@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
+/* Configuracion pagina */
 :root{
   --color-1:#FF7A5A;
   --color-2:#6766A7;
@@ -14,8 +14,11 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Ubuntu', sans-serif;
 }
+body{
+  background: var(--color-2);
+}
 
-
+/* Estilos menu */
 
 header{
   background-color: var(--color-1);
@@ -52,5 +55,24 @@ font-size: 16px;
 color: var(--text-color-2);
 font-size:18px;
 }
+
+/* Fin estilos menu */
+
+
+/* Incio estilos contenedor main */
+/* main{
+  background-color: var(--color-2);
+} */
+
+h1{
+  text-align: center;
+  margin: 44px 0px 107px 0px;
+}
+
+.sec-1{
+  display: flex;
+  
+}
+
 
 
