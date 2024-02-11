@@ -246,9 +246,91 @@ text-decoration: underline;
 .sec-4 h3{
   text-align: center;
   font-size: 32px;
-  text-decoration: solid;
+  text-decoration: 2px underline;
   padding-top: 127px;
+
+}
+
+.group-1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 178px;
+
+}
+
+.sub-4{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-4 p{
+  width: 524px;
+  height: 155px;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 
+
+.sub-5{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 24px 0 24px;
+}
+
+.sub-5 p{
+  width: 524px;
+  height: 155px;
+  text-align: center;
+  margin-top: 35px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sub-6{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-6 p{
+  width: 524px;
+  height: 155px;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+/* Iinicio pie de pagina */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 351px;
+}
+footer p{
+  font-size: 32px;
+  width: 686px;
+  margin-top: 182px;
+  margin-bottom: 41px;
+  text-align: center;
+}
+
+footer svg{
+  width: 90px;
+  height: 90px;
+}
 
