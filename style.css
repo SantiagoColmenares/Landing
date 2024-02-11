@@ -54,9 +54,9 @@ nav ul li {
 
 nav ul li a{
 text-decoration: none;
-font-size: 16px;
 color: var(--text-color-2);
-font-size:18px;
+font-size:20px;
+font-weight: bold;
 }
 
 /* Fin estilos menu */
@@ -95,7 +95,8 @@ h1{
   text-align: center;
   color: var(--text-color-3);
   font-size: 32px;
-  margin: 0 300px 0 300px;
+  font-weight: bold;
+  margin: 0 300px 23px 300px;
 }
 
 
@@ -103,7 +104,7 @@ h1{
 
 .sec-2{
   /* text-align: center; */
-  height: 406px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,12 +118,12 @@ text-decoration: underline;
 }
 
 .sec-2 p{
-  font-size: 16px;
+  font-size: 32px;
   color: var(--text-color-1);
   margin-top: 81px;
   height: 74px;
   text-align: center;
-  width: 588px;
+  width: 1000px;
 }
 
 
