@@ -240,14 +240,14 @@ text-decoration: underline;
 /* Estilos seccion testimonios */
 .sec-4{
   background: var(--color-3);
-  height: 1080px;
-  padding-top:127px;
+/*   height: 1080px;
+  padding-top:127px; */
 }
 .sec-4 h3{
   text-align: center;
   font-size: 32px;
   text-decoration: solid;
-  margin-top: 127px;
+  padding-top: 127px;
 }
 
 
