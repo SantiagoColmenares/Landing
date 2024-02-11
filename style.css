@@ -7,6 +7,7 @@
   --text-color-1:#121010;
   --text-color-2:#000000;
   --text-color-3:#F2F0F0;
+  --icon-color:#2C3E50;
 }
 
 *{
@@ -17,6 +18,7 @@ font-family: 'Ubuntu', sans-serif;
 }
 body{
   background: var(--color-2);
+  height: 4671px;
 }
 
 /* Estilos menu */
@@ -271,6 +273,7 @@ text-decoration: underline;
   width: 524px;
   height: 155px;
   text-align: center;
+  margin-bottom: 201px;
   margin-top: 17px;
   font-size: 32px;
   font-weight: bold;
@@ -290,6 +293,7 @@ text-decoration: underline;
   width: 524px;
   height: 155px;
   text-align: center;
+  margin-bottom: 155px;
   margin-top: 35px;
   font-size: 32px;
   font-weight: bold;
@@ -306,6 +310,7 @@ text-decoration: underline;
   width: 524px;
   height: 155px;
   text-align: center;
+  margin-bottom: 201px;
   margin-top: 17px;
   font-size: 32px;
   font-weight: bold;
@@ -315,22 +320,39 @@ text-decoration: underline;
 /* Iinicio pie de pagina */
 
 footer{
+  background:var(--color-1);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 351px;
 }
 footer p{
-  font-size: 32px;
+  font-size: 40px;
   width: 686px;
+  font-weight: bold;
   margin-top: 182px;
-  margin-bottom: 41px;
+  margin-bottom: 172px;
   text-align: center;
 }
 
 footer svg{
   width: 90px;
   height: 90px;
+  margin-bottom: 41px;
+  color: var(--icon-color);
+}
+
+.bi-facebook{
+  margin-right: 172px;
+  margin-bottom: 41px;
+}
+
+.bi-whatsapp{
+  margin-right: 172px;
+  margin-bottom: 41px;
+}
+
+.bi-instagram{
+  margin-bottom: 41px;
 }
 
