@@ -138,9 +138,31 @@ text-decoration: underline;
   align-items: center;
 }
 
-.sec-3 .sub-1 img{
+.img-4{
   width: 486px;
   height: 396px;
+  margin-top: 155px;
+  margin-left: 360px;
+  margin-right: 26px;
+}
+
+.serv-1{
+  display: flex;
+  flex-direction: column;
+}
+
+.serv-1 h3{
+  margin-top: 226px;
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.serv-1 p{
+  text-align: center;
+  font-size: 32px;
+  width: 686px;
+  height: 194px;
 }
 
 .sub-2{
@@ -149,13 +171,84 @@ text-decoration: underline;
   align-items: center;
 }
 
+.img-5{
+  width: 486px;
+  height: 396px;
+  margin-top: 155px;
+  margin-left: 26px;
+}
+
+.serv-2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 360px;
+}
+
+.serv-2 h3{
+  margin-top: 149px;
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.serv-2 p{
+  text-align: center;
+  font-size: 32px;
+  width: 686px;
+  height: 194px;
+}
+
 .sub-3{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
+.img-6{
+  width: 486px;
+  height: 396px;
+  margin-top: 155px;
+  margin-left: 360px;
+  margin-right: 26px;
+}
 
+.serv-3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 114px;
+  margin-left: 24px;
+  margin-bottom: 304px;
+
+}
+
+.serv-3 h3{
+  margin-top: 226px;
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.serv-3 p{
+  text-align: center;
+  font-size: 32px;
+  width: 686px;
+  height: 194px;
+}
+
+
+
+/* Estilos seccion testimonios */
+.sec-4{
+  background: var(--color-3);
+  height: 1080px;
+  padding-top:127px;
+}
+.sec-4 h3{
+  text-align: center;
+  font-size: 32px;
+  text-decoration: solid;
+  margin-top: 127px;
+}
 
 
 
