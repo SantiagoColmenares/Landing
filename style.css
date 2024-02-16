@@ -73,6 +73,7 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .container-img .img-1{
@@ -96,7 +97,7 @@ h1{
   color: var(--text-color-3);
   font-size: 32px;
   font-weight: bold;
-  margin: 0 300px 23px 300px;
+  margin: 60px 300px 23px 300px;
 }
 
 
@@ -139,13 +140,15 @@ text-decoration: underline;
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .img-4{
   width: 486px;
   height: 396px;
   margin-top: 155px;
-  margin-left: 360px;
+/*   margin-left: 360px; */
   margin-right: 26px;
 }
 
@@ -170,6 +173,8 @@ text-decoration: underline;
 
 .sub-2{
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
   align-items: center;
 }
@@ -184,7 +189,7 @@ text-decoration: underline;
 .serv-2{
   display: flex;
   flex-direction: column;
-  margin-left: 360px;
+/*   margin-left: 360px; */
 }
 
 .serv-2 h3{
@@ -203,22 +208,23 @@ text-decoration: underline;
 
 .sub-3{
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
 }
 
 .img-6{
   width: 486px;
   height: 396px;
   margin-top: 155px;
-  margin-left: 360px;
+/*   margin-left: 360px; */
   margin-right: 26px;
 }
 
 .serv-3{
   display: flex;
   flex-direction: column;
-  margin-top: 114px;
+/*   margin-top: 114px; */
   margin-left: 24px;
   margin-bottom: 304px;
 
@@ -256,10 +262,11 @@ text-decoration: underline;
 
 .group-1{
   display: flex;
-  align-content: center;
+/*   align-content: center; */
   justify-content: center;
   align-items: center;
   margin-top: 178px;
+  flex-wrap: wrap;
 
 }
 
