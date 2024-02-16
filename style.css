@@ -8,6 +8,7 @@
   --text-color-2:#000000;
   --text-color-3:#F2F0F0;
   --icon-color:#2C3E50;
+  --header: 120px;
 }
 
 *{
@@ -15,6 +16,9 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Ubuntu', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
 }
 body{
   background: var(--color-2);
@@ -25,7 +29,16 @@ body{
 
 header{
   background-color: var(--color-1);
+      position: fixed;
+    width: 100%;
+    top: 0;
+    height: var(--header);
 }
+
+main{
+  margin-top: var(--header);
+}
+
 header img{
 max-width: 95px;
 border-radius: 50px;
@@ -35,7 +48,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  gap: 2;
+  gap: 2px;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -57,6 +70,13 @@ font-size:20px;
 font-weight: bold;
 }
 
+nav ul li a:hover{
+  border: solid 2px;
+  padding: 3px;
+  border-color: var(--color-2);
+  border-radius: 25px;
+}
+
 /* Fin estilos menu */
 
 
@@ -65,6 +85,10 @@ font-weight: bold;
 h1{
   text-align: center;
   margin: 44px 0px 107px 0px;
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .sec-1 .container-img{
@@ -353,5 +377,6 @@ footer svg{
 
 .bi-instagram{
   margin-bottom: 41px;
+
 }
 
