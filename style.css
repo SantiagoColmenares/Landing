@@ -47,8 +47,6 @@ nav ul li {
     display: inline;
     margin-right: 20px;
     list-style: none;
-/*     border:2.5px solid;
-    border-radius:20px; */
     padding: 5px;
 }
 
@@ -148,7 +146,6 @@ text-decoration: underline;
   width: 486px;
   height: 396px;
   margin-top: 155px;
-/*   margin-left: 360px; */
   margin-right: 26px;
 }
 
@@ -189,7 +186,6 @@ text-decoration: underline;
 .serv-2{
   display: flex;
   flex-direction: column;
-/*   margin-left: 360px; */
 }
 
 .serv-2 h3{
@@ -217,14 +213,12 @@ text-decoration: underline;
   width: 486px;
   height: 396px;
   margin-top: 155px;
-/*   margin-left: 360px; */
   margin-right: 26px;
 }
 
 .serv-3{
   display: flex;
   flex-direction: column;
-/*   margin-top: 114px; */
   margin-left: 24px;
   margin-bottom: 304px;
 
@@ -249,8 +243,6 @@ text-decoration: underline;
 /* Estilos seccion testimonios */
 .sec-4{
   background: var(--color-3);
-/*   height: 1080px;
-  padding-top:127px; */
 }
 .sec-4 h3{
   text-align: center;
@@ -262,7 +254,6 @@ text-decoration: underline;
 
 .group-1{
   display: flex;
-/*   align-content: center; */
   justify-content: center;
   align-items: center;
   margin-top: 178px;
