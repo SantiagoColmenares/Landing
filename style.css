@@ -393,3 +393,44 @@ header{
 header ul {
   margin-left: 30px;
 }
+
+.card{
+  background-color: #f1f1f1;
+}
+
+.form{
+  padding: 12px;
+}
+
+.form__control{
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  padding: 12px;
+  border: solid 1px #1c1c1c;
+  border-radius: 8px;
+}
+
+.button{
+  background-color:var(--color-2);
+  color: white;
+  border: none;
+  border-radius:6px ;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.button--red{
+  background-color:red ;
+}
+
+.button__icon{
+  margin: 0 4px;
+}
+
+.button__text{
+
+}
