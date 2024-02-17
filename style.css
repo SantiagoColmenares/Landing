@@ -379,3 +379,17 @@ footer svg{
 
 }
 
+/* Estilos menu nav registro */
+
+header{
+  background-color: var(--color-1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: var(--header);
+  display: flex;
+}
+
+header ul {
+  margin-left: 30px;
+}
