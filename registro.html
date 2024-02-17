@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TotalSport</title>
+</head>
+
+<body>
+  <!-- Inicio header y menu nav -->
+  <header>
+    <nav>
+      <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+      <ul>
+
+        <li><a href="login.html">Inicia Sesión</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <!-- Fin header y menu nav -->
+
+
+  <!-- Inicio form registro -->
+  <section>
+    <div class="card">
+      <form action="landing/registro.html" method="get">
+        <ul>
+          <li>
+            Nombres: <br> <input type="text" placeholder="Nombre" required>
+          </li>
+          <li>
+            Apellidos: <br> <input type="text" placeholder="Apellido" required>
+          </li>
+          <li>
+            Teléfono: <br> <input type="tel" placeholder="+57 123456789" required>
+          </li>
+          <li>
+            Sexo: <br>
+            <input type="radio" name="sexo" value="M">M
+            <input type="radio" name="sexo" value="F">F
+          </li>
+          <li>
+            Correo electrónico: <br> <input type="email" placeholder="ejemplo@correo.com" required>
+          </li>
+          <li>
+            Fecha de nacimiento: <br> <input type="date" required>
+          </li>
+          <li>
+            Asigna un usuario: <br> <input type="text" minlength="8" required>
+          </li>
+          <li>
+            Asigna una ontraseña: <br> <input type="password" minlength="8" required>
+          </li>
+          <br><button type="submit">Registrar</button>
+        </ul>
+      </form>
+    </div>
+
+  </section>
+  <!-- Fin form registro -->
+</body>
+
+</html>
