@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+<!-- Inicio header y menu nav -->
+  <header>
+    <nav>
+      <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+      <ul>
+        <li><a href="login.html">Inicia Sesión</a></li>
+        <li><a href="index.html">Inicio</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Fin header y menu nav -->
+  <section class="login">
+    <div class="card__login">
+      <form action="landing/ingresar.html">
+        <div class="contenedor_ingreso">
+          <div class="form__control">
+            <label>Usuario:</label>
+            <input type="text" class="form__input" id="Usuario" name="Usuario" placeholder="Usuario" required
+              minlength="8">
+          </div>
+          <div class="form__control">
+            <label>Contraseña:</label>
+            <input type="password" class="form__input" id="Contraseña" name="Contraseña" placeholder="****" required
+              minlength="8">
+          </div>
+          <div class="form__control">
+            <label>Recordar datos:
+              <input id="datos" name="datos" class="form__input" type="checkbox" checked class="recuperar_contraseña">
+            </label>
+          </div>
+          <div class="form__control">
+            <button type="submit" class="form__btn">Iniciar sesión</button>
+          </div>
+        </div>
+      </form>
+      <div class="card__botonera">
+        <a href="#" class="botonera__link">¿Olvidaste tu contraseña?</a>
+        <a href="registro.html" class="botonera__link">Regístrate</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

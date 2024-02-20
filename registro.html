@@ -25,33 +25,33 @@
 
 
   <!-- Inicio form registro -->
-  <section>
+  <section class="registro">
     <div class="card">
       <form action="landing/registro.html" method="get" class="form">
         <div class="form__control">
           <label for="">Nombres:</label>
-          <input class="input" type="text" placeholder="Nombre" required>
+          <input class="input" type="text" placeholder="Nombre" pattern="[A-Za-z]+" required>
         </div>
 
         <div class="form__control">
           <label for="">Apellidos:</label>
-          <input class="input" type="text" placeholder="Apellido" required>
+          <input class="input" type="text" placeholder="Apellido" pattern="[A-Za-z]+" required>
         </div>
 
         <div class="form__control">
           <label for="">Teléfono:</label>
-          <input class="input" type="tel" placeholder="+57 123456789" required>
+          <input class="input" type="tel" placeholder="+57 123456789" pattern="[0-9]{10}" maxlength="10" required>
         </div>
 
         <div class="form__control">
           <label for="">Sexo:</label>
-          <label for=""><input type="radio" name="sexo" value="M">M</label>
-          <label for=""><input type="radio" name="sexo" value="F">F</label>
+          <label for=""><input type="radio" name="sexo" value="M" class="form__radio">M</label>
+          <label for=""><input type="radio" name="sexo" value="F" class="form__radio">F</label>
         </div>
 
         <div class="form__control">
           <label for="">Correo electrónico:</label>
-          <input class="input" type="email" placeholder="ejemplo@correo.com" required>
+          <input class="input" type="email" placeholder="ejemplo@correo.com" pattern="([a-zA-Z0-9]([^ @&%$\\\/()=?¿!.,:;]?|\d?)+[a-zA-Z0-9][\.]){1,2}" required>
         </div>
 
         <div class="form__control">
@@ -74,7 +74,7 @@
           <i class="bi bi-send button__icon"></i>
         </button>
         <button type="reset" class="button button--red">
-          <span class="button__text">Registrar</span>
+          <span class="button__text">Cancelar</span>
           <i class="bi bi-send button__icon"></i>
         </button>
       </form>

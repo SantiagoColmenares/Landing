@@ -24,7 +24,7 @@ html{
 
 body{
   background: var(--color-2);
-  height: 4671px;
+  /* height: 4671px; */
 }
 
 /* Estilos menu */
@@ -394,18 +394,34 @@ header ul {
   margin-left: 30px;
 }
 
+
+/* CSS REGISTRO */
+
+
 .card{
   background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 15px;
 }
 
 .form{
   padding: 12px;
+  margin-top: 150px;
 }
 
 .form__control{
   padding: 12px;
   display: flex;
   flex-direction: column;
+  
+}
+
+.form__radio{
+  margin-right: 8px;
 }
 
 .input{
@@ -421,6 +437,7 @@ header ul {
   border-radius:6px ;
   padding: 12px;
   font-size: 18px;
+  margin-top: 20px;
 }
 
 .button--red{
@@ -431,6 +448,65 @@ header ul {
   margin: 0 4px;
 }
 
-.button__text{
 
+
+/* CSS LOGIN */
+
+.login{
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__login{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #f1f1f1;
+  min-width: 320px;
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+.card__botonera{
+  display: flex;
+  gap: 1rem;
+}
+
+.botonera__link{
+  text-decoration: none;
+  color: #131036;
+}
+
+.form__control{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #131036;
+  padding: 5px;
+}
+
+.form__input{
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.form__btn{
+  background-color: var(--color-2);
+  color: #f1f1f1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.contenedor_ingreso{
+  display: flex;
+  color: #f1f1f1;
+  justify-content:center;
+  flex-direction: column;
+  gap: 1rem;
 }
